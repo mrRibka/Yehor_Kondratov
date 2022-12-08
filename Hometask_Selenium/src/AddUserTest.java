@@ -25,6 +25,10 @@ public class AddUserTest {
         driver.manage().window().maximize();
     }
 
+    public void CloseWindow(){
+        driver.close();
+    }
+
     public void LoginToPage(){
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']"))).sendKeys(loginUsername);

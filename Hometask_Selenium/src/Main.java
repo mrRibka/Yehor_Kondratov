@@ -7,5 +7,6 @@ public class Main {
         addUserTest.SearchUser();
         addUserTest.DeleteUser();
         addUserTest.SearchUser();
+        addUserTest.CloseWindow();
     }
 }
